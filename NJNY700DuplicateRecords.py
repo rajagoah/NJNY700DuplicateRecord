@@ -12,5 +12,5 @@ for i in range(len(df)):
 
 df["ind_c1"]=ind_c1
 
-print(df.loc[df["ind_c1"] == '1'])
+print(df[df["ind_c1"] != 1])
 
